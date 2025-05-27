@@ -51,9 +51,7 @@ All timestamps in the data set are in UTC.
 
 ### Driver Distribution  
 
-<details>
-    <summary> Click to view full sql query </summary>
-<pre><code class="language-sql">
+```sql
 -- scripts/driver_distribution.sql
 -- Determining the projected life distribution of lyft drivers.  
 
@@ -92,9 +90,6 @@ GROUP BY
 	diff
 ORDER BY
 	n_days ASC
-</code>
-</pre>
-
-</details>
+```
 
 
