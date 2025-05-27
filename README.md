@@ -91,7 +91,6 @@ GROUP BY
 ORDER BY
 	n_days ASC
 ```
-[Show first 10 rows of query result](./results/driver_distribution.csv)  
 ```csv
 n_days	n_drivers
 1	3
